@@ -462,13 +462,14 @@ img{
 
 
 .features-content h4 {
-	font-size: 18px;
+	font-size: 23px;
 	text-transform: uppercase;
 }
 
 
 .features-content p{
-	font-size: 15px;
+	font-size: 18px;
+  font-style: italic;
 }
 
 
@@ -829,6 +830,7 @@ img{
 	float: left;
 	width: 100%;
 	text-align: center;
+  margin-bottom: 10px;
 }
 
 
@@ -1302,6 +1304,58 @@ img{
 	outline: none;
 }
 
+/*===========================/
+  CUSTOM STYLE
+/===========================*/
+#pertandingan {
+  background-attachment: fixed !important;
+  background-image: url("assets/images/tkd2edit.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.pertandingan-icon{
+	display: inline;
+	float: left;
+	width: 60px;
+	color: #fff;
+}
+
+
+.pertandingan-icon i {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+
+.pertandingan-content {
+  display: inline;
+  float: left;
+  text-align: left;
+  margin-left: 2px;
+  margin-top: 8px;
+}
+
+
+.pertandingan-content p {
+	color: #f8f8f8;
+	font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.pertandingan-content span{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+  margin-top: 5px;
+}
+
 
 
 /*======================///////////////
@@ -1446,6 +1500,14 @@ img{
 	  padding: 0 50px;
 	}
 
+  .pertandingan-icon i {
+    font-size: 35;
+  }
+
+  .pertandingan-icon {
+    width: 45px;
+  }
+
 }
 
 @media(max-width:480px ){
@@ -1514,6 +1576,22 @@ img{
 	.download-content span {
 	  font-size: 18px;
 	}
+
+  .pertandingan-icon {
+    width: 60px;
+  }
+
+  .pertandingan-icon i {
+    font-size: 40px;
+  }
+
+  .pertandingan-content p {
+    font-size: 20px;
+  }
+
+  .pertandingan-content span {
+    font-size: 20px;
+  }
 	.contact-area {
 	  padding: 0 50px;
 	}

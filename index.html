@@ -56,7 +56,7 @@
       <span class="fa fa-remove" id="close"></span>
       <ul>
         <li> <a href="#header"><i class="fa fa-home"></i><span>Home</span></a></li>
-        <li><a href="#features"><i class="fa fa-server"></i><span>Tentang</span></a></li>
+        <li><a href="#tentang"><i class="fa fa-server"></i><span>Tentang</span></a></li>
         <li><a href="#pertandingan"><i class="fa fa-hourglass"></i><span>Pertandingan</span></a></li>
         <li><a href="#screenshot"><i class="fa fa-image"></i><span>Galeri</span></a></li>
         <li><a href="#download-app"><i class="fa fa-download"></i><span>Download</span></a></li>
@@ -93,7 +93,8 @@
                     <div class="header-bottom-left">
                       <br/>
                       <br/>
-                      <h1>BUPATI PATI CUP<br/><span>TAEKWONDO CHAMPIONSHIP V</span></h1>
+                      <h1>BUPATI <span>PATI</span> CUP
+                        <br/><span>TAEKWONDO</span> CHAMPIONSHIP <span>V</span></h1>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6">
@@ -114,12 +115,12 @@
   <!-- End header section -->
 
   <!-- Start Features -->
-  <section id="features">
+  <section id="tentang" class="features">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="title-area wow fadeInUp">
-            <h2 class="title">BUPATI CUP <span>TAEKWONDO CHAMPIONSHIP 2016</span></h2>
+            <h2 class="title">BUPATI CUP <span>TAEKWONDO CHAMPIONSHIP V</span></h2>
             <p>SEMANGAT MERAIH PRESTASI</p>
           </div>
         </div>
@@ -158,7 +159,7 @@
   <!-- End Features -->
 
   <!-- Start how it works -->
-  <section id="pertandingan">
+  <section id="pertandingan" class="pertandingan">
     <div class="download-overlay">
       <div class="container">
         <div class="row">
@@ -212,7 +213,7 @@
   </section>
   <!-- End how it works -->
 
-  <section id="kyorugiprestasirule" class="screenshot">
+  <section id="rule" class="screenshot">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -247,20 +248,20 @@
               <div class="col-md-2">
               </div>
               <div class="col-md-5">
-                <div class="features-right">
-                  <ul class="features-list features-list-right">
+                <div class="features-left">
+                  <ul class="features-list features-list-left">
                     <li class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                      <i class="fa fa-angle-double-left"></i>
+                      <i class="fa fa-angle-double-right"></i>
                       <div class="features-content">
-                        <h4>KYORUGI PRESTASI</h4>
-                        <p>Digital scoring menggunakan sistem PSS</p>
+                        <h4>POOMSAE PRESTASI</h4>
+                        <p>Perorangan dan Berpasangan</p>
                       </div>
                     </li>
-                    <li class="wow fadeInRight" data-wow-duration="0.75s" data-wow-delay="0.75s">
-                      <i class="fa fa-angle-double-left"></i>
+                    <li class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                      <i class="fa fa-angle-double-right"></i>
                       <div class="features-content">
-                        <h4>KYORUGI PEMULA</h4>
-                        <p>Digital scoring menggunakan sistem DSS</p>
+                        <h4>POOMSAE PEMULA</h4>
+                        <p>Sistem Poomase Battle</p>
                       </div>
                     </li>
                   </ul>
@@ -271,6 +272,9 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id=#map>
   </section>
 
   <!-- Start screenshot -->
@@ -426,6 +430,10 @@
 
   <!-- Custom js -->
   <script type="text/javascript" src="assets/js/custom.js"></script>
+
+  <!-- Vanue Location -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7OeUL6tmOcob1gvBZP1HkPgBJ4--L81c&callback=initMap"></script>
+  <script type="text/javascript" src="assets/js/mapapi.js"></script>
 
   </body>
 </html>

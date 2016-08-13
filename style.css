@@ -85,6 +85,10 @@ img{
   display: block;
 }
 
+h1 span {
+  color: #ee4532;
+}
+
 /* Preloader */
 
 #preloader {
@@ -697,7 +701,7 @@ img{
 /*--------------------*/
 
 
-#screenshot{
+.screenshot{
 	background-color: #212121;
 	display: inline;
 	float: left;
@@ -706,8 +710,8 @@ img{
 }
 
 
-#screenshot .title,
-#screenshot .title-area p{
+.screenshot .title,
+.screenshot .title-area p{
 	color: #fff;
 }
 

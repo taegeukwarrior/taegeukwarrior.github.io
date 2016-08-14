@@ -801,7 +801,7 @@ h1 span {
 /*--------------------*/
 
 
-#download-app {
+.download-app {
   background-attachment: fixed !important;
   background-image: url("assets/images/download-bg.jpg");
   background-repeat: repeat;
@@ -823,8 +823,8 @@ h1 span {
 }
 
 
-#download-app .title,
-#download-app .title-area p{
+.download-app .title,
+.download-app .title-area p{
 	color: #fff;
 }
 
@@ -1311,20 +1311,6 @@ h1 span {
 /*===========================/
   CUSTOM STYLE
 /===========================*/
-.pertandingan {
-  background-attachment: fixed !important;
-  background-image: url("assets/images/tkd2edit.jpg");
-  background-repeat: repeat;
-  background-size: cover;
-  color: #ffffff;
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-.pertandingan .title-area .title p {
-  color: #fff;
-}
 
 .pertandingan-icon{
 	display: inline;
@@ -1362,22 +1348,6 @@ h1 span {
 	font-size: 20px;
 	font-weight: bold;
   margin-top: 5px;
-}
-
-#venuemap {
-  background-attachment: fixed !important;
-  background-image: url("assets/images/tkd3.jpg");
-  background-repeat: repeat;
-  background-size: cover;
-  color: #ffffff;
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-#venuemap .title-area,
-#venuemap .title p{
-  color: #fff;
 }
 
 .img-vanue {

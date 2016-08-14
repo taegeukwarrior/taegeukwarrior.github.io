@@ -800,7 +800,7 @@ h1 span {
 /* DOWNLOAD */
 /*--------------------*/
 
-#download-app {
+#download {
   background-attachment: fixed !important;
   background-image: url("assets/images/download-bg.jpg");
   background-repeat: repeat;

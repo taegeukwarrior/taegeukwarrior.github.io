@@ -1375,7 +1375,7 @@ h1 span {
   width: 100%;
 }
 
-#vanuemap .title-area .title p {
+#vanuemap .title-area, #vanuemap .title p {
   color: #fff;
 }
 

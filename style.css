@@ -800,12 +800,14 @@ h1 span {
 /* DOWNLOAD */
 /*--------------------*/
 
-
-.download-app {
+#download-app {
   background-attachment: fixed !important;
   background-image: url("assets/images/download-bg.jpg");
   background-repeat: repeat;
   background-size: cover;
+}
+
+.download-app {
   color: #ffffff;
   display: inline;
   float: left;
@@ -1311,6 +1313,12 @@ h1 span {
 /*===========================/
   CUSTOM STYLE
 /===========================*/
+#pertandingan {
+  background-attachment: fixed !important;
+  background-image: url("assets/images/tkd2edit.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
 
 .pertandingan-icon{
 	display: inline;
@@ -1348,6 +1356,13 @@ h1 span {
 	font-size: 20px;
 	font-weight: bold;
   margin-top: 5px;
+}
+
+#venuemap {
+  background-attachment: fixed !important;
+  background-image: url("assets/images/vanue.jpg");
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .img-vanue {

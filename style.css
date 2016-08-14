@@ -1364,7 +1364,7 @@ h1 span {
   margin-top: 5px;
 }
 
-#vanuemap {
+#venuemap {
   background-attachment: fixed !important;
   background-image: url("assets/images/tkd3.jpg");
   background-repeat: repeat;
@@ -1375,7 +1375,8 @@ h1 span {
   width: 100%;
 }
 
-#vanuemap .title-area, #vanuemap .title p {
+#venuemap .title-area,
+#venuemap .title p{
   color: #fff;
 }
 
